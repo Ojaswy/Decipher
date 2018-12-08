@@ -7,7 +7,7 @@ CAESAR: python cipher_cracker.py MyFile.txt CAESAR
 VIGENERE: python cipher_cracker.py MyFile.txt VIGENERE 10
 Here, 10 represents the length of the key replace that with the required length
 
-SUBSTITUTION python cipher_cracker.py MyFile.txt SUBSTITUTION True
+SUBSTITUTION: python cipher_cracker.py MyFile.txt SUBSTITUTION True
  "True" dictates whether this is the first time running. The substitution mapping will be saved/output to the "alphabets.txt" file.
  This is semi-automatic, so after a base frequency analysis is determined, you should change the value to "False" and
  switch around the letters in the output file.
